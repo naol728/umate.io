@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:cursive,sans-serif;
+    background-image: url();
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header span{
+    display: none;
+}
+header button{
+    position: relative;
+    right:50px;
+    top: 20px;
+    background-color: red;
+    color:white;
+    width: 100px;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+header button:hover{
+    color: black;
+    font-weight: 700;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: red;
+}
+.nav_bar li{
+ list-style: none;
+ display: inline-block;   
+ position: relative;
+ left: 20px;
+ top: 25px;
+ margin: 22px;
+ font-size:16px;
+ cursor: pointer;
+ font-weight: 600;
+ transition: all .5s;
+}
+.nav_bar li:hover{
+  color: red;
+}
+.welcome{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome_disc{
+    text-align: center;
+}
+.welcome_disc h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.welcome_disc p{
+    text-wrap: balance;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.btn{
+    background-color: red;
+     padding:10px 20px;
+     border: none;
+     border-radius: 5px;
+     margin: 30px;
+     font-size: 22px;
+     transition: all .5s;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all .5s;
+}
+.btn a:hover{
+    color: black;
+}
+.btn:active{
+    padding: 8px 18px;
+}
