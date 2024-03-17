@@ -5,7 +5,11 @@
 }
 body{
     font-family:cursive,sans-serif;
-    background-image: url();
+    background-image: url(/img/bgforwelcome.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    backdrop-filter: blur(1px);
 }
 header{
     display: flex;
@@ -34,11 +38,11 @@ header button:hover{
 }
 .logo{
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 900;
     position: relative;
-    left: 20px;
+    left: 40px;
     top: 20px;
-    color: red;
+    color:red;
 }
 .nav_bar li{
  list-style: none;
@@ -47,9 +51,9 @@ header button:hover{
  left: 20px;
  top: 25px;
  margin: 22px;
- font-size:16px;
+ font-size:18px;
  cursor: pointer;
- font-weight: 600;
+ font-weight: 700;
  transition: all .5s;
 }
 .nav_bar li:hover{
@@ -74,22 +78,26 @@ header button:hover{
     margin-top: 22px;
     margin-bottom: 30px;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
+
 }
 .btn{
     background-color: red;
      padding:10px 20px;
      border: none;
-     border-radius: 5px;
-     margin: 30px;
+     border-radius: 10px;
      font-size: 22px;
+     box-shadow: 5px 5px 10px black;
      transition: all .5s;
 }
 .btn a{
     text-decoration: none;
-    color: white;
+    color:black;
     font-weight: 600;
     transition: all .5s;
+}
+.btn:first-child{
+    margin:50px ;
 }
 .btn a:hover{
     color: black;
