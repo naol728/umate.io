@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: space-between;
+   /* background-color: hsla(0, 0%, 0%, 0.495);  */
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex-basis: 400px;
+    margin-left: 100px;
+    padding: 10px 20px;
+}
+.left img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+}
