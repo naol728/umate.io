@@ -113,6 +113,13 @@ body{
     background-color:hsla(0, 88%, 51%, 0.797) ;
 
 }
+.fa-regular{
+    position: absolute;
+    right: 275px;
+    top: 315px;
+    cursor: pointer;
+    font-weight: 400;
+}
 @media (max-width:500px) {
 .left{
     display: none;

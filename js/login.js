@@ -13,3 +13,13 @@ var result=document.getElementById("result");
     }
     return false;
 }
+const pwd=document.querySelector(".login input[type='password']");
+const btn=document.querySelector(".login .fa-regular")
+btn.onclick=()=>{
+    if(password.type=="password"){
+        password.type="text"
+    }
+    else{
+        password.type="password"
+    }
+}
